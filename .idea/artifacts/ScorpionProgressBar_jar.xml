@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ScorpionProgressBar:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ScorpionProgressBar_jar</output-path>
+    <root id="archive" name="ScorpionProgressBar.jar">
+      <element id="module-output" name="ScorpionProgressBar" />
+      <element id="library" level="application" name="graalvm-ce-java11-21.2" />
+    </root>
+  </artifact>
+</component>

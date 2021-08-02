@@ -1,0 +1,29 @@
+<idea-plugin>
+  <id>some.awesome</id>
+  <name>Scorpion ProgressBar</name>
+  <version>1.14</version>
+  <idea-version since-build="192"/>
+  <vendor email="dmitry.batkovich@jetbrains.com">Dmitry Batkovich</vendor>
+
+  <description><![CDATA[
+      Pretty progress bars with a fight between scorpion and subzero from Mortal Kombat for IJ based IDEs.
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+  <application-components>
+    <component>
+      <implementation-class>ScorpionApplicationComponent</implementation-class>
+    </component>
+  </application-components>
+</idea-plugin>
